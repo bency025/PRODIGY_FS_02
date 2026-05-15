@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Add Employee</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Add Employee</h2>
+
+    <form method="POST">
+
+        <input type="text" name="name" placeholder="Employee Name" required>
+
+        <input type="email" name="email" placeholder="Employee Email" required>
+
+        <input type="text" name="department" placeholder="Department" required>
+
+        <input type="number" name="salary" placeholder="Salary" required>
+
+        <button type="submit">Add Employee</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
